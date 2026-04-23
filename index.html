@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 Conference</title>
+    <!-- Adding a clean font -->
+    <link href="https://googleapis.com" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header & Logo */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 180px;
+            height: auto;
+        }
+
+        /* Navbar */
+        nav ul {
+            background-color: #0047AB;
+            /* Deeper, professional blue */
+            margin: 0;
+            padding: 15px 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            transition: opacity 0.3s;
+        }
+
+        nav ul li a:hover {
+            opacity: 0.7;
+        }
+
+        /* Hero Section */
+        .home {
+            background-color: #f4f7f6;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .home-content {
+            background-image: url('nature.jpeg');
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+            /* Gives the image space around the text */
+            display: inline-block;
+            /* Ensures the background only wraps the text */
+            border-radius: 8px;
+            /* Optional: rounds the corners */
+            color: white;
+            /* Make sure text is readable */
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            /* Adds depth */
+        }
+
+        background-image: "nature.jpeg";
+        display: flex;
+        flex-direction: column;
+        /* Stacks H1 and Button vertically */
+        align-items: center;
+        gap: 20px;
+        }
+
+        .home h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            max-width: 800px;
+        }
+
+        /* Buttons */
+        .btn {
+            background-color: #00d2d2;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* About Section */
+        .about {
+            padding: 80px 20px;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+        }
+
+        .about .container {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .btn-outline {
+            display: inline-block;
+            margin-top: 20px;
+            color: #00d2d2;
+            text-decoration: none;
+            border: 2px solid #00d2d2;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .conference {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="logo.png" alt="logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#Conferences-section">Conference</a></li>
+                <li><a href="#Speakers-section">Speakers</a></li>
+                <li><a href="#Sponsors-section">Sponsor</a></li>
+                <li><a href="#Registration-section">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="home-content">
+                <h1>JOIN US FOR THE NEW 2024 CONFERENCES</h1>
+                <a href="#Registration-section" class="btn">REGISTER NOW</a>
+            </div>
+        </section>
+
+        <section class="about" id="about-section">
+            <div class="container">
+                <h2>About The Event</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Amet tristique vel nisi eget in tincidunt amet et vestibulum
+                    nulla dui quam lacus erat. A sit sed eget diam orci. Sapien lacus malesuada pharetra ut amet nunc
+                    purus lacinia molestie egestas non condimentum fermentum.</p>
+                <a href="#" class="btn-outline">Read More</a>
+            </div>
+        </section>
+        <section class="Conference" id="#Conferences-section">
+            <div class="container">
+                <h2>Conferences</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Amet tristique vel nisi eget in tincidunt
+                    amet et vestibulum nulla dui quam lacus erat.</p>
+                <div class="Conference-cards">
+                    <div class="card">
+                        <h3>Oklahoma City
+                            , OK </h3><a href="#" class="btn-outline">Read More</a>
+                    </div>
+                    <div class="card"></div>
+                    <h3>Oklahoma City
+                        , OK </h3><a href="#" class="btn-outline">Read More</a>
+                </div>
+                <div class="card"></div>
+                <h3>Oklahoma City
+                    , OK </h3><a href="#" class="btn-outline">Read More</a>
+            </div>
+        </section>
+        <img src="piece.png" alt="piece">
+    </main>
+</body>
+
+</html>
